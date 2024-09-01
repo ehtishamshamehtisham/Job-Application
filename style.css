@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color: #A9A9A9;
+}
+.first-box{
+    background-color: white;
+    width: 900px;
+    height: 1061px;
+    margin: 25px 310px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}    
+.application-box{
+    display: flex;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+.application-box h1{
+    height: 50px;
+    font-size: 4vw ;
+  
+}
+.application-box h3{
+    color: rgb(228, 161, 35);
+    height: 50px;
+    padding-top:25px;
+    padding-left: 10px;
+    font-size: 2.5vw;
+}
+.box1 {
+    display: flex;
+    padding-top: 60px;
+}
+.inner-box1{
+    padding-left: 45px;
+
+}
+.inner-box2{
+    padding-left: 45px;
+    
+}
+.box1 input{
+    font-size: 2vw;
+    display: inline;
+    height: 48px;
+    padding-top: 15px;
+    width: 25vw;
+    border-radius: 5px;
+}
+.box2 input{
+    font-size: 2vw;
+    display: inline;
+    height: 48px;
+    padding-top: 15px;
+    width: 25vw;
+    border-radius: 5px;
+}
+.box2{
+    display: flex;
+    padding-top: 60px;
+}
+.inner-box2 select{
+        font-size: 1.1vw;
+        display: inline-block;
+        height: 48px;
+        padding-top: 10px;
+        width: 25vw;
+        border-radius: 5px;
+}
+.inner-box2 select option{
+    margin-top: 8px;
+}
+.box3{
+    display: flex;
+    padding-top: 60px;
+}
+.box3 input{
+    color: black;
+    font-size: 2vw;
+    display: inline;
+    height: 200px;
+    width: 52.5vw;
+    border-radius: 8px;
+}
+ .innerbox-3{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top:15px ;
+   height: 48px;
+   border: 2px solid black;
+   border-radius: 5px;
+   width: 25vw;
+}
+.innerbox4{
+    color:white;
+    background-color: #433939;
+    height: 15px;
+    width: 9vw;
+}
+button{
+    font-size: 1.1vw;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 750px;
+    background-color:#FF0000;
+    color: white;
+    border: 5px solid #FF0000;
+}
+p{
+     color: black;
+     font-size: 1.2vw;
+    
+}
+@media (max-width:600px){
+    body{
+        background-color: pink;
+    }
+    .first-box{
+        width: 100%;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .application-box{
+        display: flex;
+        margin-left: 5vw;
+        padding-top: 5vw;
+    }
+    .application-box h1{
+        color: red;
+        height: 50px;
+        padding-left: 0px;
+        font-size: 9.5vw;
+    }
+    
+    .application-box h3{
+        color: rgb(228, 161, 35);
+        height: 10px;
+        padding-top: 4.5vw;;
+        padding-left: 1.5vw;
+        font-size: 5.5vw;
+    }
+    .box1{
+        display: flex;
+        padding-top: 4.5vw;
+    }
+    .inner-box1{
+        padding-left: 4.5vw;
+        
+    
+    }
+    .inner-box2{
+        padding-left: 4.5vw;
+    }
+    .box1 input{
+        font-size: 3vw;
+        display: inline;
+        height: 30px;
+        width: 40vw;
+        border-radius: 5px;   
+    }    
+    .box2 input{
+        font-size: 3vw;
+        display: inline;
+        height: 30px;
+        width: 40vw;
+        border-radius: 5px;   
+    }
+    .box2{
+        
+        padding-top: 5vw;
+    }
+    .inner-box2 select{
+        font-size: 3vw;
+        height: 30px;
+        padding-top: 0px;
+        width: 40vw;
+        border-radius: 5px;
+}
+.box3{
+    display: flex;
+    padding-top: 5vw;
+}
+.box3 input{
+    color: black;
+    font-size: 4vw;
+    height: 50px;
+    padding-top: 0px;
+    width: 86vw;
+    border-radius: 8px;
+
+ }
+ .innerbox-3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:5.5px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 41vw;
+ }
+ .innerbox4{
+     color:white;
+     background-color: #433939;
+     height: 3vw;
+     width: 22vw;
+ }
+ button{
+    font-size: 2.8vw;
+    height: 9vw;
+    width: 20vw;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 75vw;
+    background-color:#FF0000;
+    color: white;
+    border: 5px solid #FF0000;
+}
+.innerbox4 p{
+    color: white;
+    font-size: 3vw;
+   
+}
+p{
+    font-size: 4vw;
+}
+h5{
+    font-size: 2.4vw;}
+}
+@media (min-width:601px) and (max-width:1500px){
+    .first-box{
+        
+        width: 83vw;
+        margin: 30px 55px;
+        
+    } 
+    .application-box h1{
+        height: 50px;
+        font-size: 5.8vw ;
+ 
+    }
+.application-box h3{
+    padding-top:18px;
+    font-size: 4.5vw;
+    }
+     .box1 {
+        padding-top: 4vw;
+    }
+    p{
+        font-size: 3.5vw;
+    }
+    .inner-box1{
+        padding-left: 55px;
+    
+    }
+    .inner-box2{
+        padding-left: 55px;
+        
+    }
+    .box1 input{
+        font-size: 3vw;
+        height: 40px;
+        padding-top: 10px;
+        width: 30vw;
+       
+    }
+    .box2 input{
+        font-size: 4vw;
+        height: 40px;
+        padding-top: 10px;
+        width: 30vw;
+    }
+    .box2{
+        padding-top: 30px;
+    }
+    .inner-box2 select{
+        font-size: 2.5vw;
+        height: 40px;
+        width: 30vw;
+        
+   }
+   .box3{
+   
+    padding-top: 3vw;
+}
+.box3 input{
+    font-size: 4vw;
+    width: 70vw;
+    height: 45px; 
+   
+
+ }
+ .innerbox-3{
+    width: 30vw;
+    height: 40px;
+   
+ }
+ .innerbox4{
+    
+    background-color: #433939;
+     height: 13px;
+     
+     
+ }
+ #choose-file p{    /* new id given*/
+    font-size: 1.95vw;
+    color: white;
+ }
+ .inner-box1 input{
+    font-size: 3vw;
+ }
+ button{
+   
+    width: 15vw;
+   font-size: 2vw;
+    margin-left: 60vw;
+    
+}
+}
